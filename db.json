@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "email": "khicon1stv2@gmail.com",
+      "password": "$2a$10$v/sJJ8nmXqHFwDx8p3usqeVO1Am0k3Pt7A7aBjR7oq7pxZWAsJcWa",
+      "id": 1
+    },
+    {
+      "email": "thanhdcph10271@fpt.edu.vn",
+      "password": "$2a$10$hfqgdGufhwU2EYLEcsVj3eNjb2R3DWuZee.q/Q9jkLVpS4Pf4ZgQO",
+      "id": 2
+    },
+    {
+      "email": "bebong100421@gmail.com",
+      "password": "$2a$10$QbEYXRTYvhTjbCRYpGsxxuJeeMHjNbXNW2SnN86bNwYeCh5M4qhzu",
+      "id": 3
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$Nz2nOhMo48bHcsEgHk2d/eXChnJKZJqG8CBF1sJbZKUiPALnLwNP6",
+      "id": 4
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "id_category": "1",
+      "name": "Quần Jean nam",
+      "img": "https://img.zanado.com/media/catalog/product/cache/all/thumbnail/700x817/7b8fef0172c2eb72dd8fd366c999954c/1/_/quan_jean_nam_phong_cach_196f.jpg",
+      "price": "79000",
+      "desc": "asdasd2"
+    },
+    {
+      "id": 2,
+      "id_category": "1",
+      "name": "Quần nam Hàn Quốc",
+      "img": "https://antuongshop.vn/uploads/products/images/2439D1.jpg",
+      "price": "175000",
+      "desc": "tt"
+    },
+    {
+      "id_category": "1",
+      "name": "Quần Kaki Nam",
+      "img": "https://cf.shopee.vn/file/082e7dd944f3d3185d40632f586f8c1c",
+      "price": "185000",
+      "desc": "📣  CHÍNH SÁCH CỦA VATINO:\nLà khách hàng của , bạn sẽ được:\n👉 FREESHIP cho tất cả các đơn hàng từ 150K\n👉 Cam kết chất lượng và mẫu mã sản phẩm giống với hình ảnh.\n👉 Hoàn tiền nếu sản phẩm không giống với mô tả.\n👉 Cam kết được đổi trả hàng trong vòng 2 ngày. \n👉 Shop hỗ trợ khách hàng đổi size sản phẩm.\n\n🔰  GIẢI ĐÁP KHÁCH HÀNG 🔰 \n👉 Khách hàng thường hỏi: sản phẩm giá rẻ như này liệu chất lượng sản phẩm có tốt hay không?\n👉 Hàng nhận có như trong ảnh không?\n👉 Thời gian giao hàng trong bao lâu?\nDạ thì shop xin trả lời là:\n⏩ Chất lượng sản phẩm rất tốt, so với việc mua tại cửa hàng, sẽ bị phải tính thêm giá chi phí nhân viên, chi phí mặt bằng, chi phí điện nước,...Nên giá mua tại cửa hàng sẽ đương nhiên sẽ cao hơn, Khách hàng mua onl sẽ không bị shop tính thêm chi phí đó vào giá sản phẩm.\n⏩ Ảnh sản phẩm của shop 100% do shop tự chụp, hàng bên mình tự sản xuất Việt Nam, nên sản phẩm mình nhận được sẽ giống như trong ảnh mô tả của shop.\n⏩ Thời gian giao hàng chỉ 3-5 ngày, tùy xa gần.\n\n------------------------------------\n🔰  THÔNG TIN CHI TIẾT\n🎗 Chất liệu: Kaki siêu nhẹ\n🎗 Màu sắc: Đen –  Xanh than – Be nhạt - Nâu\n🎗 Xuất xứ: Việt Nam\n \n------------------------------------\n🔰  THÔNG TIN SẢN PHẨM\nKhông phải ngẫu nhiên giữa rất nhiều sự lựa chọn mà phái mạnh lại chọn QUẦN KAKI - chiếc quần đa năng nhất. Dù ở bất cứ độ tuổi nào, dù bạn đang đi làm hay đi chơi thì quần kaki vẫn cực kỳ ăn nhập, phù hợp với hoàn cảnh và cơ thể bạn.  Dường như không một loại quần nào có thể “soái ngôi” quần kaki về độ bền, độ khỏe khoắn & khả năng tôn lên cá tính người mặc. Với ưu điểm được gia công tỉ mỉ từ vải kaki cao cấp siêu nhẹ, bề mặt vải nhám mịn, không chỉ đem đến cảm giác thoải mái mà còn khiến phong cách đời thường của bạn trở nên gọn gàng, bắt mắt.  Kết cấu sợi vải chắc chắn, khả năng #chống_nhăn_cực_tốt giúp quần luôn phẳng phiu. Lựa chọn siêu phẩm kaki này, nam giới có thể hoàn toàn tự tin đi bất cứ đâu với vẻ ngoài thu hút của mình.\n👉 Đường may tinh tế, tỉ mỉ trong từng chi tiết\n👉 Quần phong cách đơn giản, dễ mặc, dễ phối đồ\n👉 Form dáng thể thao mang lại phong cách trẻ trung, năng động\n👉 Chất lượng sản phẩm tốt, giá cả hợp lý",
+      "view": 0,
+      "id": 3
+    },
+    {
+      "id_category": "1",
+      "name": "Quần Jogger Nam vải Kaki",
+      "img": "https://vn-test-11.slatic.net/p/24d750429b3e69d3ef842dde86492c0e.jpg",
+      "price": "77000",
+      "desc": "Chất vải kaki cao cấp, ít nhàu, không bai, không xù\nĐường may chỉn chu, tinh tế khiến quần rất bền.\nChất liệu kaki tạo vẻ trẻ trung, lịch lãm\nDễ phối đồ với áo sơ mi, áo thun, áo polo...\nSản phẩm không thể thiếu của đấng mày râu lịch lãm\nSize: M-XXL",
+      "view": 0,
+      "id": 4
+    },
+    {
+      "id_category": "1",
+      "name": "Quần tây ống ôm ",
+      "img": "https://malanaz.com/wp-content/uploads/2018/04/400a-800x800.png",
+      "price": "250000",
+      "desc": "667",
+      "view": 0,
+      "id": 5
+    },
+    {
+      "id_category": "2",
+      "name": "Áo thun Nam tay lỡ",
+      "img": "https://cf.shopee.vn/file/7e767303ceaa695d06e6038c5ff58499",
+      "price": "129000",
+      "desc": "234",
+      "view": 0,
+      "id": 6
+    },
+    {
+      "id_category": "2",
+      "name": "Áo Polo Nam",
+      "img": "data:image/jpeg;base64,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",
+      "price": "150000",
+      "desc": "787",
+      "view": 0,
+      "id": 7
+    }
+  ],
+  "category": [
+    {
+      "name": "Quần Nam",
+      "id": 1
+    },
+    {
+      "name": "Áo Nam",
+      "id": 2
+    },
+    {
+      "name": "Quần Nữ",
+      "id": 3
+    },
+    {
+      "name": "Áo Nữ",
+      "id": 4
+    }
+  ]
+}
