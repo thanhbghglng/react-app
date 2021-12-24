@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
-const HomeClient = ({products}) => {
+const HomeClient = ({products,handleAddtocart}) => {
     // const [products, setProducts] = useState([]);
 
     // useEffect( () => {
@@ -51,6 +51,8 @@ const HomeClient = ({products}) => {
                                 <h5 className="card-title">{item.name}</h5>
                                 <p className="card-text"> <span className="text-danger me-1">{item.price}</span><b>VNĐ</b></p>
                                 <Link to={`/product/${item.id}`} className="btn btn-primary">Chi tiết</Link>
+                                <button className='btn btn-danger' onClick={()=>handleAddtocart(item.id)}  >Cart</button>
+
                             </div>
                         </div>
                         }

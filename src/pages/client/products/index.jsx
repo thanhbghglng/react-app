@@ -45,6 +45,7 @@ const Products = ({products, category}) => {
                                     <h5 className="card-title">{item.name}</h5>
                                     <p className="card-price">{item.price}$</p>
                                     <Link to={`/product/${item.id}`} className="btn btn-primary">Chi tiết </Link>
+                                    <Link to="/">Cart</Link>
                                 </div>
                         </div>
                         

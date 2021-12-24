@@ -4,7 +4,8 @@ import { listCategory } from '../../api/categoriesAPI';
 import { useNavigate } from 'react-router-dom';
 
 
-const Header = () => {
+const Header = ({cart}) => {
+  const [countCart,SetcountCart]= useState(localStorage.getItem('cart')?JSON.parse( localStorage.getItem('cart')).length:0);
     const [user, setUser] = useState(null);
     const [category,setCategory] = useState([]);
     const navigate = useNavigate();
@@ -28,6 +29,9 @@ const Header = () => {
       setUser(null)
       navigate('/signin');
     }
+    useEffect (()=>{
+          SetcountCart(localStorage.getItem('cart')?JSON.parse( localStorage.getItem('cart')).length:0);
+    },[localStorage.getItem('cart')])
     return (
       
         <>
@@ -78,6 +82,7 @@ const Header = () => {
             {user && <li className="nav-item">
               <button className="btn btn-danger" onClick={logOut}>Đăng xuất</button>
             </li> }
+            <Link to="/cart" className='btn btn-primary'>Cart <span>{countCart}</span></Link>
           </ul>
           <div>
             

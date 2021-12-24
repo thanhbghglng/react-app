@@ -30,9 +30,12 @@ import { toast, ToastContainer } from 'react-toastify';
 import Blog from './pages/client/blog/index'
 import Dashboard from './pages/admin/dashboard';
 import CategoryPage from './pages/client/category';
+import Cart from './pages/client/cart';
 function App() {
   const [products, setProducts] = useState([]);
   const [category,setCategory]= useState([]);
+  const [cart,setCart]=useState(localStorage.getItem('cart')?JSON.parse( localStorage.getItem('cart')):[]);
+  
 
   const getProducts = async () => {
     const {data} = await list();
@@ -104,7 +107,22 @@ function App() {
     toast.success('Cập nhật danh mục thành công!');
   }
   ///* End Category */////
-
+  const handleAddtocart = (id)=>{
+    const checkExisted= cart.filter(item=>item.id==id);
+    if(checkExisted.length===0){
+      const newCart= products.filter(item=>item.id==id)[0];
+      setCart([...cart,{...newCart,count:1}])
+      localStorage.setItem('cart',JSON.stringify([...cart,{...newCart,count:1}]));
+    }else{
+      const newCart={...checkExisted[0],count:checkExisted[0].count+1};
+      const cartExisted = cart.filter(item=>item.id!==id);
+      setCart([...cartExisted,newCart])
+      localStorage.setItem('cart',JSON.stringify([...cartExisted,newCart]));
+    }
+    
+  }
+  
+ 
 
   return (
     <div className="App">
@@ -113,14 +131,15 @@ function App() {
       
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LayoutWebsite category={category}/>} >
-          <Route index element={<HomeClient products={products}/>} />
+        <Route path="/" element={<LayoutWebsite category={category} cart={cart}/>} >
+          <Route index element={<HomeClient products={products} handleAddtocart={handleAddtocart}/>} />
           <Route path="/product" element={<Products category={category} products={products}/>} />
           <Route path="/product/:id"  element={<ProductDetail category={category} />} />
           <Route path="/category/:id" element={<CategoryPage/>} />
           <Route path="/tin-tuc" element={<Blog/>} />
           <Route path="/signup" element={<Signup/>} />
           <Route path="/signin" element={<Signin/>} />
+          <Route path="/cart" element={<Cart/>} />
         </Route>
 
         <Route path="/admin" element={
